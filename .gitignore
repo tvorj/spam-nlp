@@ -1,0 +1,37 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# ===== Virtual env =====
+.venv/
+venv/
+ENV/
+env/
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ===== OS / Editor =====
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ===== Data / Outputs =====
+data/*
+!data/.gitkeep
+outputs/
+models/
+*.csv
+*.parquet
+*.pkl
+*.joblib
+
+# ===== Logs =====
+*.log
